@@ -55,7 +55,7 @@ dependencies {
     implementation("com.intuit.ssp:ssp-android:1.1.0")
 
     //Location
-    implementation("com.google.android.gms:play-services-location:21.0.1")
+    implementation("com.google.android.gms:play-services-location:21.1.0")
 
     // Navigation Component
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.6")
@@ -69,7 +69,7 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
     //ViewModel
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
 
     //Coil
     implementation("io.coil-kt:coil:2.5.0")

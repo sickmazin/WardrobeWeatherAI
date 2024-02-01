@@ -4,6 +4,7 @@ import Fragments.home.HomeFragment
 import android.content.Context
 import android.os.Bundle
 import android.util.Log
+import android.view.KeyEvent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -53,8 +54,7 @@ class LocationFragment: Fragment() {
     private fun setListeners(){
         binding.imageClose.setOnClickListener { findNavController().popBackStack() }
         binding.inputSearch.editText?.setOnEditorActionListener { _, actionId, _ ->
-            if (actionId!=EditorInfo.IME_ACTION_DONE){ //TODO "correggere il fatto che quando si clicca enter non si chiude la tastiera"
-                Log.d("TastieraGiu"," ERROREE")
+            if (actionId!= KeyEvent.KEYCODE_ENTER){
                 hideSoftKeyboard()
                 val query=binding.inputSearch.editText?.text
                 if(query.isNullOrBlank()) return@setOnEditorActionListener true
