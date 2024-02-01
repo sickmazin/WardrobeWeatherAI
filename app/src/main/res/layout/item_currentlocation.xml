@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="@dimen/_16sdp"
+    app:cardBackgroundColor="@color/Dark_Slate_gray"
+    app:cardElevation="0dp"
+    app:strokeColor="@color/Zomp"
+    app:strokeWidth="1dp"
+    app:cardCornerRadius="@dimen/_8sdp"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/CurrentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textDataOdierna"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/oggi_10_dicembre_2024"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageLocation"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:src="@drawable/share_location_24px"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textDataOdierna" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textCurrentLocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/rende_cosenza_italia"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageLocation"
+            app:layout_constraintStart_toEndOf="@+id/imageLocation" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageShareLocation"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:src="@drawable/my_location_24px"
+            app:layout_constraintBottom_toBottomOf="@id/imageLocation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/textDataOdierna"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WardrobeWeatherAI</string>
+    <string name="home">Home</string>
+    <string name="oggi_10_dicembre_2024">Oggi, 10 Dicembre 2024</string>
+    <string name="rende_cosenza_italia">Rende, Cosenza, Italia</string>
+    <string name="ricerca_posizione">Ricerca Posizione</string>
+    <string name="ricerca_posizione2">"       Ricerca posizione"</string>
+    <string name="rende_calabria_italia">Rende, Calabria, Italia</string>
+    <string name="ricerca_posizione00">Ricerca Posizione</string>
+    <string name="vento">Vento</string>
+    <string name="_15_km_h">15 km/h</string>
+    <string name="umidit">Umidità</string>
+    <string name="_25">25%</string>
+    <string name="_38">38%</string>
+    <string name="probabilit_pioggia">Probabilità pioggia</string>
+    <string name="questa_la_risposta_data_dall_intelligenza_artificiale_spero_ti_abbia_soddisfatto">Questa è la risposta data dall\'intelligenza artificiale spero ti abbia soddisfatto!</string>
+    <string name="risposta">Risposta...</string>
+    <string name="prova_a_generare_un_altra_risposta">Prova a generare un altra risposta</string>
+    <string name="genera_nuova_risposta">Genera nuova risposta</string>
+    <string name="prova_a_generare_un_altra_risposta_cliccando_questo_tasto">Prova a generare un\'altra risposta cliccando questo tasto</string>
+    <string name="di_seguito_apparir_cosa_dovresti_indossare_n_a_seconda_del_meteo_la_risposta_stata_generata_da_chatgpt">Di seguito apparirà cosa dovresti indossare \n a seconda del meteo, la risposta è stata generata da ChatGPT</string>
+</resources>

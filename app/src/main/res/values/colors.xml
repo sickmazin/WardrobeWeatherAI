@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grigioBello">#101419</color>
+    <color name="Verde">#276F00</color>
+    <color name="Giallo">#949700</color>
+    <color name="Jasper">#984447</color>
+    <color name="Zomp">#43AA8B</color>
+    <color name="Redwood">#6BA368</color>
+<color name="Dark_Slate_gray">#254441</color>
+    <color name="bittersweet">#FF6F59</color>
+</resources>
